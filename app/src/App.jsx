@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import SearchResult from "./components/SearchResults/SearchResult";
-export const BASE_URL = "http://localhost:9000";
+export const BASE_URL = "https://food-zone-frontened-server.onrender.com";
 const App = () => {
   const [data, setData] = useState(null);
   const [filteredData, setFilteredData] = useState(null);
